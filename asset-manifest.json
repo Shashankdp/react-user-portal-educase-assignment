@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-user-portal-educase-assignment/static/css/main.171e39e8.css",
+    "main.js": "/react-user-portal-educase-assignment/static/js/main.32d37b35.js",
+    "index.html": "/react-user-portal-educase-assignment/index.html",
+    "main.171e39e8.css.map": "/react-user-portal-educase-assignment/static/css/main.171e39e8.css.map",
+    "main.32d37b35.js.map": "/react-user-portal-educase-assignment/static/js/main.32d37b35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.171e39e8.css",
+    "static/js/main.32d37b35.js"
+  ]
+}

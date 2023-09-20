@@ -111,9 +111,9 @@ function SignupPage({users}) {
 
                     <div style={{fontWeight: 600}}>Are you an Agency?<span style={{color: "red"}}>*</span></div>
                     <div className='radioBtn'>
-                        <input type="radio" id="yes" name="confirm" required></input>
+                        <input type="radio" id="yes" name="confirm"></input>
                         <span style={{fontWeight: 500}}>Yes</span>
-                        <input type="radio" id="no" name="confirm" required></input>
+                        <input type="radio" id="no" name="confirm"></input>
                         <span style={{fontWeight: 500}}>No</span>
                     </div>
 

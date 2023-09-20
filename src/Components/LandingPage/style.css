@@ -1,6 +1,7 @@
 .landing-popup{
-    padding-left: 2rem;
-    height: 700px;
+    /* padding-left: 1rem; */
+    align-items: center;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: end;

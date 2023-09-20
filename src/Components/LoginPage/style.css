@@ -4,8 +4,8 @@
     padding-top: 1.5rem;
 }
 
-.loginBtn{
-    width: 19rem;
+.loginBtn2{
+    width: 85%;
     cursor: pointer;
     margin: 0.5rem;
     font-size: 1.2rem;
@@ -14,7 +14,10 @@
     padding: 0.5rem;
     border: none;
     border-radius: 0.25rem; 
+    background-color: rgb(177, 177, 177);
 }
+
+
 
 .error{
     color: red;

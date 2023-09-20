@@ -13,6 +13,7 @@ function LandingPage() {
           <h2 style={{marginBottom:0}}>Welcome to PopX</h2>
           <p>Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing elit,</p>
           <button className="btn signupBtn" onClick={()=>navigate("/signup")}>Create Account</button>
+          <br></br>
           <button className='btn loginBtn' onClick={()=>navigate("/login")}>Already Registered? Login</button>
        </div>
     </div>

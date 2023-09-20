@@ -45,7 +45,7 @@ function LoginPage() {
                     },2000)
                 }
                 else{
-                    setError("Account not found")
+                    setError("Incorrect email or password")
                     setSuccess("");
                 }
             }
@@ -61,8 +61,15 @@ function LoginPage() {
             return userObj.email===email;
         })
 
-        // console.log(obj);
+        if(obj===undefined){
+            return "";
+        }
         
+        if(password!==obj.password){
+            setError("Incorrect Password");
+            setSuccess("");
+            return "";
+        }
 
         if(obj){
            return obj;
@@ -95,7 +102,9 @@ function LoginPage() {
             <div className='label'>Password</div>
             <input type="password" id='pass' placeholder='Enter password' className='inputs' onChange={(e)=>setUser({...user,password:e.target.value})}></input>
             
-            <button className='loginBtn'>Login</button>
+            <div style={{marginLeft: "1rem"}}>
+                <button className='loginBtn2'>Login</button>
+            </div>
         </form>
     </div>
   )
